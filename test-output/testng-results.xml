@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17603" started-at="2020-09-07T05:12:23Z" finished-at="2020-09-07T05:12:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17603" started-at="2020-09-07T05:12:23Z" finished-at="2020-09-07T05:12:41Z">
+      <class name="main.MainClass">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:main.MainClass@6d78f375]" name="launchApplication" is-config="true" duration-ms="5647" started-at="2020-09-07T10:42:23Z" finished-at="2020-09-07T10:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="login()[pri:0, instance:main.MainClass@6d78f375]" name="login" duration-ms="1235" started-at="2020-09-07T10:42:29Z" finished-at="2020-09-07T10:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateErrorMessageForEmptyProductDescription()[pri:1, instance:main.MainClass@6d78f375]" name="validateErrorMessageForEmptyProductDescription" duration-ms="2054" started-at="2020-09-07T10:42:30Z" finished-at="2020-09-07T10:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageForEmptyProductDescription -->
+        <test-method status="PASS" signature="validateErrorMessageForEmptyProductSku()[pri:2, instance:main.MainClass@6d78f375]" name="validateErrorMessageForEmptyProductSku" duration-ms="892" started-at="2020-09-07T10:42:32Z" finished-at="2020-09-07T10:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageForEmptyProductSku -->
+        <test-method status="PASS" signature="validateErrorMessageForEmptyProductTitle()[pri:2, instance:main.MainClass@6d78f375]" name="validateErrorMessageForEmptyProductTitle" duration-ms="879" started-at="2020-09-07T10:42:33Z" finished-at="2020-09-07T10:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageForEmptyProductTitle -->
+        <test-method status="PASS" signature="validateProductAttributeCharacterLength()[pri:2, instance:main.MainClass@6d78f375]" name="validateProductAttributeCharacterLength" duration-ms="54" started-at="2020-09-07T10:42:34Z" finished-at="2020-09-07T10:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAttributeCharacterLength -->
+        <test-method status="PASS" signature="verifyNewProductCreation()[pri:3, instance:main.MainClass@6d78f375]" name="verifyNewProductCreation" duration-ms="1619" started-at="2020-09-07T10:42:34Z" finished-at="2020-09-07T10:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewProductCreation -->
+        <test-method status="PASS" signature="verifyNewProductListing()[pri:4, instance:main.MainClass@6d78f375]" name="verifyNewProductListing" duration-ms="930" started-at="2020-09-07T10:42:36Z" finished-at="2020-09-07T10:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewProductListing -->
+        <test-method status="PASS" signature="verifyUdpateProduct()[pri:5, instance:main.MainClass@6d78f375]" name="verifyUdpateProduct" duration-ms="2586" started-at="2020-09-07T10:42:37Z" finished-at="2020-09-07T10:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUdpateProduct -->
+        <test-method status="PASS" signature="verifyDeleteProduct()[pri:6, instance:main.MainClass@6d78f375]" name="verifyDeleteProduct" duration-ms="1584" started-at="2020-09-07T10:42:39Z" finished-at="2020-09-07T10:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:main.MainClass@6d78f375]" name="closeBrowser" is-config="true" duration-ms="90" started-at="2020-09-07T10:42:41Z" finished-at="2020-09-07T10:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- main.MainClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
